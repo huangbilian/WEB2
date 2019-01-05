@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/> 
+	<title>详情</title>
+	<style type="text/css">
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	a:hover{
+		color:#fe6c00;
+	}
+	#top{
+		width: 100%;
+		height: 125px;
+		
+	}
+	#top1{
+		width: 1180px;
+		height: 125px;
+		margin: 0 auto;
+		background: #ffffff;
+	}
+	.cover{
+		width: 100%;
+		height: 125px;
+		background-color: #ffffff;
+		margin: 0 auto;
+		z-index: 100;
+	}
+	#top2{
+		width: 1180px;
+		height:30px;
+		float: left;
+	}
+	#wenzi{
+		height: 13px;
+		width: 90px;
+		font: 13px '微软雅黑';
+		color: #9a9791;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		float: left;
+	}
+
+	#tophead{
+		height: 35px;
+		width: 780px;
+		font:12px '微软雅黑';
+		color:#9a9791;
+		text-align: center;
+		margin-top: 10px;
+		margin-left: 310px;
+		float: left;
+	}
+	#h1{
+		height: 19px;
+		width: 19px;
+		display: block;
+		background: url(./img2/common_min.png) 0 -31px;
+		float: left;
+	}
+	#h2{
+		height: 19px;
+		width: 19px;
+		display: block;
+		background: url(./img2/common_min.png) 0 -53px;
+		margin-left: 20px;
+		float: left;
+	}
+	#h3{
+		height: 19px;
+		width: 19px;
+		display: block;
+		background: url(./img2/common_min.png) 0 -75px;
+		margin-left: 20px;
+		float: left;
+	}
+	#h4{
+		width: 30px;
+		height: 17px;
+		text-align: center;
+		margin-left: 20px;
+		float: left;
+	}
+	#h5{
+		height: 19px;
+		width: 19px;
+		display: block;
+		background: url(./img2/common_min.png) 0 -114px;
+		text-align: center;
+		margin-left: 20px;
+		float: left;
+	}
+	#h6{
+		width: 52px;
+		height: 20px;
+		text-align: center;
+		float: left;
+	}
+	#h7{
+		width: 13px;
+		height: 14px;
+		display: block;
+		background: url(./img2/dingdan.jpg) 0;
+		margin-left: 20px;
+		float: left;
+	}
+	#h8{
+		width: 8px;
+		height: 14px;
+		display: block;
+		background: url(./img2/tp-my-phone.png);
+		margin-left: 20px;
+		
+		float: left;
+	}
+	#h9{
+		width: 19px;
+		height: 19px;
+		display: block;
+		background: url(./img2/gouwuche.jpg);
+		margin-left: 20px;
+		
+		float: left;
+	}
+	#h10{
+		width: 50px;
+		height: 17px;
+		text-align: center;
+		margin-left: 20px;
+		float: left;
+	}
+	#h11{
+		width: 30px;
+		height: 17px;
+		text-align: center;
+		float: left;
+	}
+	#h12{
+		width: 34px;
+		height: 17px;
+		text-align: center;
+		margin-left: 20px;
+		float: left;
+	}
+	#h13{
+		width: 40px;
+		height: 17px;
+		text-align: center;
+		float: left;
+	}
+	#topzhong{
+		height: 70px;
+		width: 1180px;
+		float: left;
+	}
+	#logo{
+		height: 95px;
+		width: 146px;
+		margin-top: 10px;
+		float: left;
+	}
+	#sousuo{
+		width: 540px;
+		height: 42px;
+		margin-top: 10px;
+		margin-left: 140px;
+		float: left;
+	}
+	#sousuo1{
+		width: 440px;
+		height: 42px;
+		border: 2px solid #fe6c00;
+		border-radius: 1px;
+		float: left;
+	}
+	#sousuo2{
+		width: 80px;
+		height:42px;
+		border: 2px solid #fe6c00;
+		font: 16px '微软雅黑';
+		text-align: center;
+		line-height: 40px;
+		background-color: #fe6c00;
+		float: left;
+	}
+	#topzhong2{
+		width: 262px;
+		height: 45px;
+		margin-top: 10px;
+		margin-left: 90px;
+		float: left;
+	}
+	#topright{
+		width: 85px;
+		height: 42px;
+		border: 1px solid #e6e5e2;
+		border-radius: 1px;
+		float: left;
+	}
+	#toprighttu1{
+		width: 19px;
+		height: 19px;
+		display: block;
+		text-align: center;
+		background: url(./img2/common_min.png) 0 -95px;
+		margin-top: 5px;
+		margin-left: 30px;
+		float: left;
+	}
+	#toprighttu2{
+		width: 19px;
+		height: 19px;
+		display: block;
+		text-align: center;
+		background: url(./img2/common_min.png) 0 -114px;
+		margin-top: 5px;
+		margin-left: 30px;
+		float: left;
+	}
+	#toprighttu3{
+		width: 19px;
+		height: 16px;
+		display: block;
+		background: url(./img2/common_min.png) 0 -133px;
+		margin-top: 15px;
+		float: left;
+	}
+	#toprightzi{
+		width: 85px;
+		height: 14px;
+		font: 12px '微软雅黑';
+		color: #a89791;
+		line-height: 12px;
+		margin-top: 7px;
+		float: left;
+	}
+	#toprightzi2{
+		width: 55px;
+		height: 14px;
+		font: 13px '微软雅黑';
+		color: #ffffff;
+		line-height: 13px;
+		margin-top: 15px;
+		float: left;
+	}
+	#topzhong3{
+		width: 555px;
+		height: 17px;
+		font: 12px '微软雅黑';
+		line-height: 15px;
+		margin-left: 300px;
+		float: left;
+	}
+	a{
+		text-decoration: none;
+		color: inherit;
+	}
+	ul,li{
+		list-style: none;
+	}
+	#topd{
+		width: 100%;
+		height: 42px;
+		margin: 0 auto;
+		background-color: #000000;
+	}
+	#topd1{
+		width: 1330px;
+		height: 42px;
+		float: left;
+	}
+	#topd2{
+		width: 990px;
+		height: 42px;
+		margin-left: 160px;
+		float: left;
+	}
+	#topd3{
+		width: 80px;
+		height: 41px;
+		font: 13px '微软雅黑';
+		line-height: 41px;
+		color: #ffffff;
+		text-align: center;
+		background-color: #fe0d4a;
+		float: left;
+	}
+	#topd4{
+		width: 120px;
+		height: 42px;
+		font: 13px '微软雅黑';
+		line-height: 42px;
+		color: #ffffff;
+		text-align: center;
+		float: left;
+	}
+	#topd5{
+		width: 164px;
+		height: 40px;
+		float: left;
+	}
+
+
+	#center{
+		width: 100%;
+		height: 780px;
+		margin :0 auto;
+		background-color: #f8f7f6;
+	}
+	#center1{
+		width: 1180px;
+		height: 780px;
+		margin: 0 auto;
+		background-color: #f8f7f6;
+	}
+	#c1{
+		width: 515px
+		height:30px;
+		font: 12px '微软雅黑';
+		line-height: 30px;
+		float: left;
+	}
+	#c2{
+		width: 1180px;
+		height: 635px;
+		float: left;
+	}
+	#c3{
+		width: 990px;
+		height: 635px;
+		background-color: #ffffff;      
+		float: left;
+	}
+	#c4{
+		width: 180px;
+		height: 620px;
+		background-color: #ffffff;
+		float: right;
+	}
+	#c5{
+		width: 445px;
+		height: 635px;
+		float:left;
+	}
+	#c6l{
+		width: 408px;
+		height: 408px;
+		margin-top: 25px;
+		margin-left: 20px;
+		border: 1px solid #d0cdc7;
+		text-align: center;
+		position: relative;
+		float: left;
+	}
+	#c6lt{
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	#c6r{
+		width: 408px;
+		height: 408px;
+		left: 600px;
+		margin-top: 25px;
+		background-color: #ffffff;
+		border: 1px solid #d0cdc7;
+		text-align: center;
+		z-index: 1;
+		display: none;
+		position: absolute;
+		float: left;
+	}
+	#c6rt{
+		width: 408px;
+		height: 408px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		overflow: hidden;
+		display: none;
+	}
+	#slider{
+		width:100px;
+		height:100px;
+		position:absolute;
+		left:0;top:0;
+		background:#CCC;
+		opacity:0.6;cursor: move;
+		display:none; 
+		filter:alpha(opacity=60);
+	}
+	#s0{
+		width: 1120px;
+		height: 1120px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	#s1{
+		width: 1120px;
+		height: 1120px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 1;
+	}
+	
+	
+	#c7{
+		width: 408px;
+		height: 70px;
+		margin-top: 20px;
+		margin-left: 20px;
+		float: left;
+	}
+	#c8l{
+		width: 55px;
+		height: 55px;
+		border:1px solid #ff9003;
+		margin-left: 5px;
+		float: left;
+	}
+	#c8r{
+		width: 55px;
+		height: 55px;
+		margin-left: 5px;
+		float: left;
+	}
+	
+
+	#c9{
+		width: 25px;
+		height: 62px;
+		margin-left: 20px;
+		float: left;
+	}
+	#c10{
+		width: 25px;
+		height: 62px;
+		float: right;
+	}
+
+	#c11{
+		width: 545px;
+		height: 635px;
+		float: left;
+	}
+	#c12{
+		width: 385px;
+		height: 20px;
+		font: 15px '微软雅黑';
+		line-height: 20px;
+		margin-top: 20px;
+		float: left;
+	}
+	#c13{
+		width: 500px;
+		height: 36px;
+		font: 13px '微软雅黑';
+		margin-top: 10px;
+		color: #676660;
+		float: left;
+	}
+	#c14{
+		width: 260px;
+		height: 20px;
+		margin-top: 20px;
+		float: left;
+	}
+	#c14zi{
+		width: 30px;
+		height: 20px;
+		line-height: 20px;
+		font: 12px '微软雅黑';
+		margin-left: 20px;
+		float: left;
+	}
+	#c14zi2{
+		width:40px;
+		height: 20px;
+		font: 14px '微软雅黑';
+		color: #fe0e4e;
+		text-align: center;
+		margin-left: 50px;
+		float: left;
+	}
+	#c14zi3{
+		width: 45px;
+		height: 20px;
+		font: 12px '微软雅黑';
+		text-decoration: line-through;
+		margin-left: 20px;
+		float: left;
+	}
+	#c15{
+		width: 500px;
+		height:101px;
+		float: left;
+	}
+	#c16{
+		width: 270px;
+		height: 32px;
+		margin-left: 20px;
+		float: left;
+	}
+	#c16l{
+		width: 90px;
+		height: 32px;
+		font: 12px '微软雅黑';
+		margin-right: 20px;
+		float: left;
+	}
+	#c16r1{
+		width: 50px;
+		height: 28px;
+		margin-left: 10px;
+		border:1px solid #ff0853;
+		cursor: pointer;
+		float: left;
+	}
+	#c16rzi1{
+		width: 35px;
+		height: 28px;
+		text-align: center;
+		font: 12px '微软雅黑';
+		line-height: 30px;
+		float: left;
+	}
+	#c16rtu1{
+		margin-top: 15px;
+		display: inline;
+		float: right;
+	}
+	#c16r2{
+		width: 50px;
+		height: 28px;
+		margin-left: 10px;
+		cursor: pointer;
+		float: left;
+	}
+	#c16rzi2{
+		width: 35px;
+		height: 28px;
+		text-align: center;
+		font: 12px '微软雅黑';
+		line-height: 30px;
+		float: left;
+	}
+	#c16rtu2{
+		margin-top: 15px;
+		display: none;
+		float: right;
+	}
+	
+	#c17{
+		width: 400px;
+		height: 30px;
+		text-align: center;
+		margin-top: 15px;
+		margin-left: 20px;
+		float: left;
+	}
+	#c17zi{
+		width: 40px;
+		height: 30px;
+		font: 12px '微软雅黑';
+		float: left;
+	}
+	#c17zi2{
+		width: 100px;
+		height: 30px;
+		font: 12px '微软雅黑';
+		line-height: 30px;
+		float: left;
+	}
+	#c17bu{
+		width: 28px;
+		height: 30px;
+		margin-left: 60px;
+		text-align: center;
+		line-height: 30px;
+		border: 1px solid #cecbc5;
+		cursor: pointer;
+		float: left;
+	}
+	#c17bu2{
+		width: 50px;
+		height: 30px;
+		text-align: center;
+		line-height: 30px;
+		border: 1px solid #cecbc5;
+		float: left;
+	}
+	#c17bu3{
+		width: 28px;
+		height: 30px;
+		margin-right: 40px;
+		line-height: 30px;
+		border: 1px solid #cecbc5;
+		cursor: pointer;
+		float: left;
+	}
+	#c18{
+		width: 401px;
+		height: 47px;
+		margin-top: 10px;
+		float: left;
+	}
+	#c19{
+		width: 140px;
+		height: 30px;
+		margin-left: 100px;
+		float: left;
+	}
+	#c19l{
+		width: 60px;
+		height: 30px;
+		font: 12px '微软雅黑';
+		line-height: 30px;
+		text-align: center;
+		float: left;
+	}
+	#c19r{
+		width: 70px;
+		height: 30px;
+		font: 13px '微软雅黑';
+		line-height: 30px;
+		text-align: center;
+		color: #ff9003;
+		float: left;
+
+	}
+	#c20{
+		width: 330px;
+		height: 40px;
+		margin-top: 20px;
+		float: left;
+	}
+	#c21{
+		width: 150px;
+		height: 40px;
+		color: #ff0754;
+		font: 16px '微软雅黑';
+		line-height: 40px;
+		text-align: center;
+		background-color: #ffffff;
+		border: 1px solid #ff0754;
+		border-radius: 5px;
+		float: left;
+	}
+	#c22{
+		width: 150px;
+		height: 40px;
+		color: #ff0754;
+		font: 16px '微软雅黑';
+		line-height: 40px;
+		text-align: center;
+		color: #ffffff;
+		background-color: #ff0754;
+		border: 1px solid #ff0754;
+		border-radius: 5px;
+		margin-left: 20px;
+		float: left;
+	}
+
+
+
+
+	#biao{
+		width: 1180px;
+		height: 104px;
+		float: left;
+	}
+
+
+	#bottom{
+		width: 100%;
+		height:348px;
+		margin: 0 auto;
+		background-color: #ffffff;
+	}
+	#bottom1{
+		width: 1180px;
+		height:348px;
+		margin: 0 auto;
+		background-color: #ffffff;
+	}
+	#bottoms{
+		width: 1180px;
+		height: 185px;
+		border-bottom: 1px solid #ebeae8;
+		float: left;
+	}
+	#b1{
+		width: 149px;
+		height: 181px;
+		text-align: center;
+		float: left;
+	}
+	#b2{
+		width: 730px;
+		height: 180px;
+		text-align: center;
+		font: 13px '微软雅黑';
+		margin-top: 40px;
+		margin-left: 60px;
+		float: left;
+	}
+	#b3{
+		width:80px;
+		height: 130px;
+		margin-left: 40px;
+		text-align: left;
+		font: 14px '微软雅黑';
+		float: left;
+	}
+	#b3 li{
+		width: 80px;
+		height: 20px;
+		color: #666560;
+		margin-top: 5px;
+		text-align: left;
+		font: 12px '微软雅黑';
+		line-height: 20px;
+		float: left;
+	}
+	#b4{
+		width: 120px;
+		height: 144px;
+		margin-top: 30px;
+		margin-left: 30px;
+		text-align: center;
+		float: left;
+	}
+	#bottomc{
+		width: 1180px;
+		height: 100px;
+		float: left;
+	}
+	#b5{
+		width: 655px;
+		height: 20px;
+		font: 12px '微软雅黑';
+		line-height: 18px;
+		margin-left: 250px;
+		margin-top: 10px;
+		float: left;
+	}
+	#b5 a{
+		margin-right: 8px;
+	}
+	#b6{
+		width: 1080px;
+		height: 20px;
+		color: #b497aa;
+		margin-top: 5px;
+		font: 12px '微软雅黑';
+		text-align: center;
+		line-height: 20px;
+		float: left;
+	}
+	#bottomd{
+		width: 790px;
+		height: 52px;
+		margin-top: 10px;
+		margin-left: 180px;
+		float: left;
+	}
+
+
+	#bei{
+		width: 100%;
+		height: 100%;
+		top:0;
+		left: 0;
+
+
+
+		background-color: #dedcd8;
+		z-index: 1;
+		opacity:0.6;
+		filter:alpha(opacity=60);
+		position: fixed;
+		display: none;
+	}
+	#kuang{
+		width: 410px;
+		height: 230px;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+		background-color: #ffffff;
+		border: 4px solid #aca9d3;
+		z-index: 1;
+		position: fixed;
+		display: none;
+	}
+	#k1{
+		margin-top: 5px;
+		margin-right: 12px;
+		cursor: pointer;
+		float: right;
+	}
+	#k2{
+		width: 150px;
+		height: 40px;
+		margin-top: 15px;
+		margin-left: 40px;
+		color: #ff0754;
+		font: 16px '微软雅黑';
+		line-height: 40px;
+		text-align: center;
+		border: 1px solid #ff0754;
+		background-color: #ffffff;
+		border-radius: 5px;
+		float: left;
+	}
+	#k3{
+		width: 150px;
+		height: 40px;
+		margin-top: 15px;
+		color: #ff0754;
+		font: 16px '微软雅黑';
+		line-height: 40px;
+		text-align: center;
+		color: #ffffff;
+		border: 1px solid #ff0754;
+		background-color: #ff0754;
+		border-radius: 5px;
+		margin-left: 20px;
+		float: left;
+	}
+	</style>
+</head>
+<body>
+	<div id="top">
+		<div id="top1">
+			<div class="cover">
+				<div id="top2">
+					<div id="wenzi">
+						<a href="">帮5买，享帮帮</a>
+					</div>
+					<div id="tophead">
+						<a href="" id="h1"></a>
+						<a href="" id="h2"></a>
+						<a href="" id="h3"></a>
+						<a href="" id="h4">登录</a>
+						<a href="" id="h4">注册</a>
+						<a href="" id="h5"></a>
+						<a href="" id="h11">消息</a>
+						<a href="" id="h7"></a>
+						<a href="" id="h6">我的订单</a>
+						<a href="" id="h10">我的收藏</a>
+						<a href="" id="h10">帮钻兑换</a>
+						<a href="" id="h8"></a> 
+						<a href="" id="h13">手机版</a>
+						<a href="" id="h12">帮5淘</a>
+						<a href="" id="h10">客户服务</a>
+						<a href="" id="h9"></a>
+						<a href="" id="h13">购物车</a>
+						<a href="" style="color: #fe6c00;float: left;">0</a>
+					</div>
+				</div>
+
+				<div id="topzhong">
+					<div id="logo">
+						<img src="./img2/logo_03.jpg">
+					</div>
+					<div id="sousuo">
+						<input type="text" name="sousuo" id="sousuo1" placeholder="输入商品网址或关键词，直通前往，快速帮5购！">
+						<a href="" id="sousuo2" style="color: #ffffff">
+						搜全网
+						</a>
+					</div>
+					<div id="topzhong2">
+						<div id="topright">
+							<div id="toprighttu1"></div>
+							<div id="toprightzi">400-085-0505</div>
+						</div>
+						<div id="topright">
+							<div id="toprighttu2"></div>
+							<div id="toprightzi">mc@b5m.com</div>
+						</div>
+						<div id="topright" style="background-color: #fe6c00 ">
+							<div id="toprighttu3"></div>
+							<div id="toprightzi2" ">常见问题</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="topzhong3">
+					<a href="" style="color: #ff0000"> 洗发护发 </a>
+					<a href="" style="color: #ebe7e7">|</a>
+					<a href="" style="color: #ff0000"> 日本纸尿裤 </a>
+					<a href="" style="color: #ebe7e7">|</a>
+					<a href="" style="color:#666560 "> 身体乳 </a>
+					<a href="" style="color: #ebe7e7">|</a>
+					<a href="" style="color:#666560 "> 内衣文胸 </a>
+					<a href="" style="color: #ebe7e7">|</a>
+					<a href="" style="color: #abbee6"> iPhone 6s </a>
+					<a href="" style="color: #ebe7e7">|</a>
+					<a href="" style="color: #abbee6"> iPad Air2 </a>
+					<a href="" style="color: #ebe7e7">|</a>
+					<a href="" style="color: #666560"> 牛仔裤 </a>
+					<a href="" style="color: #ebe7e7">|</a>
+					<a href="" style="color: #666560 "> 奶粉 </a>
+					<a href="" style="color: #ebe7e7">|</a>
+					<a href="" style="color: #666560"> 防晒霜 </a>
+					<a href="" style="color: #ebe7e7">|</a>
+					<a href="" style="color: #666560"> 伞 </a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="topd">
+		<div id="topd1">
+			<div id="topd2">
+				<ul>
+					<li id="topd3"><a href="web2.9.html" style="color: #ffffff;">首页</a></li> 
+					<li id="topd4"><a href="">热门品牌</a></li>
+					<li id="topd4"><a href="">美妆个护</a></li>
+					<li id="topd4"><a href="">服饰鞋包</a></li>
+					<li id="topd4"><a href="">母婴生活</a></li>
+					<li id="topd4"><a href="">食品保健</a></li>
+					<li id="topd4"><a href="">韩国直邮 </a></li>
+					<li id="topd4"><a href="">跨境购</a></li>
+				</ul>
+			</div>
+			<img  src="./img2/ff_03.jpg">
+		</div>
+	</div>
+
+
+	<div id="center">
+		<div id="center1">
+			<div id="c1">
+				<p>首页>美容护肤/美体/精油>防晒>韩国RE:CIPE水晶清爽防水防晒喷雾SPF50 150ml/瓶</p>
+			</div>
+			<div id="c2">
+				<div id="c3">
+					<div id="c5">
+						<div id="c6l">
+							<div id="c6lt">
+								<img src="./img2/pp0.jpeg" id="pp0" style="display: block;">
+								<img src="./img2/pp1.jpeg" id="pp1" style="display: none;">
+
+								<div id="slider"></div>
+							</div>
+						</div>
+						<div id="c6r">
+							<div id="c6rt">
+								<img src="./img2/pp0.jpeg" id="s0" style="display: block;">
+								<img src="./img2/pp1.jpeg" id="s1" style="display: none;">
+							</div>
+						</div>
+						
+						<div id="c7">
+							<div id="c9">
+								<img src="./img2/spanl.jpg" ></div>
+							<div id="c8l">
+								<img src="./img2/sp0.jpeg" ></div>
+							<div id="c8r">
+								<img src="./img2/sp1.jpeg"></div>
+							<div id="c10">
+								<img src="./img2/spanr.jpg" ></div>
+						</div>
+					</div>
+					<div id="c11">
+						<div id="c12">
+							<p>韩国RE:CIPE水晶清爽防水防晒喷雾SPF50 150ml/瓶</p>
+						</div>
+						<div id="c13">
+							<p>【限购三件】超透明无痕防晒，防水防汗定妆，保湿降温不黏腻。水晶防晒喷雾，喷后皮肤水润，不油，不留白，更不会像防晒霜那样抹不开，非常实用，开始存货吧。</p>
+						</div>
+						<div id="c14">
+							<p id="c14zi">价格</p>
+							<p id="c14zi2">￥71</p>
+							<p id="c14zi3">￥150</p>
+						</div>
+						<div id="c15">
+							<img src="./img2/ss_09.jpg">
+						</div>
+						<div id="c16">
+							<p id="c16l">化妆品净含量</p>
+							<div id="c16r1">
+								<p id="c16rzi1">150ml</p>
+								<img src="./img2/duigou.png" id="c16rtu1" >
+							</div>
+							<div id="c16r2">
+								<p id="c16rzi2">200ml</p>
+								<img src="./img2/duigou.png" id="c16rtu2" >
+							</div>
+
+						</div>
+						<div id="c17">
+							<div id="c17zi">数量</div>
+							<span id="c17bu" >-</span>
+							<input type="text" name="" value=" 1" id="c17bu2">
+							<span id="c17bu3">+</span>
+							<div id="c17zi2">件（库存5件）</div>
+						</div>
+						<div id="c18">
+							<img src="./img2/oo_03.jpg">
+						</div>
+						<div id="c19">
+							<div id="c19l">
+								您已选择
+							</div>
+							<div id="c19r">"150ml"</div>
+						</div>
+						<div id="c20">
+							<input type="button" name="" id="c21" value="立即购买">
+							<input type="button" name="" id="c22" value="加入购物车">
+					</div>
+				</div>
+			</div>
+			<div id="c4">
+				<img src="./img2/ww_07.jpg">
+			</div>
+		</div>
+		<div id="biao">
+				<img src="./img2/a_07.jpg" id="biao">
+		</div>
+	</div>
+
+
+	<div id="bottom">
+		<div id="bottom1">
+			<div id="bottoms">
+				<div id="b1">
+					<img src="./img2/loginB.jpg">
+				</div>
+				<div id="b2">
+					<div id="b3">
+						<a href="" >购物指南</a>
+						<ul>
+							<li><a href="">如何下单</a></li>
+							<li><a href="">帮5购流程</a></li>
+							<li><a href="">订单查询</a></li>
+							<li><a href="">物流配送</a></li>
+						</ul>
+					</div>
+					<div id="b3">
+						<a href="" >支付相关</a>
+						<ul>
+							<li><a href="">支付方式</a></li>
+							<li><a href="">安全设置</a></li>
+							<li><a href="">账户信息</a></li>
+							
+						</ul>
+					</div>
+					<div id="b3">
+						<a href="" >售后服务</a>
+						<ul>
+							<li><a href="">取消订单</a></li>
+							<li><a href="">申请售后</a></li>
+							<li><a href="">退货流程</a></li>
+							<li><a href="">退款相关</a></li>
+						</ul>
+					</div>
+					<div id="b3">
+						<a href="" >VIP服务</a>
+						<ul>
+							<li><a href="">VIP优惠</a></li>
+							<li><a href="">如何成为VIP</a></li>
+							<li><a href="">超级帮钻</a></li>
+							
+						</ul>
+					</div>
+					<div id="b3">
+						<a href="" >帮韩品</a>
+						<ul>
+							<li><a href="">韩国正品</a></li>
+							<li><a href="">闪电发货</a></li>
+							<li><a href="">帮韩品售后</a></li>
+							
+						</ul>
+					</div>
+					<div id="b3">
+						<a href="" >更多</a>
+						<ul>
+							<li><a href="">手机APP</a></li>
+							<li><a href="">帮5采APP</a></li>
+							<li><a href="">帮5淘插件</a></li>
+							<li><a href="">其他</a></li>
+						</ul>
+					</div>
+				</div>
+				<div id="b4">
+					<img src="./img2/erweima.jpg">
+				</div>
+			</div>
+
+			
+			<div id="bottomc">
+				<div id="b5">
+					<a href="">关于帮5买</a></li>
+					<a style="color: #d0cdc7;">|</a>
+					<a href="">联系我们</a>
+					<a style="color: #d0cdc7;">|</a>
+					<a href="">合作商家</a>
+					<a style="color: #d0cdc7;">|</a>
+					<a href="">友情链接</a>
+					<a style="color: #d0cdc7;">|</a>
+					<a href="">加入我们</a>
+					<a style="color: #d0cdc7;">|</a>
+					<a href="">移动应用</a>
+					<a style="color: #d0cdc7;">|</a>
+					<a href="">热门</a>
+					<a style="color: #d0cdc7;">|</a>
+					<a href="">广告联盟</a>
+					<a style="color: #d0cdc7;">|</a>
+					<a href="">使用条款</a>
+				</div>
+				<div id="b6">
+					<p>Copyright © 2011-2015 B5M.COM.ALL rights reserved.Powered by B5Msoft Co.Ltd</p>
+				</div>
+				<div id="b6">
+					<p>增值电信业务经营许可证：沪B2-20130065号|中华人名共和国互联网药品信息服务资格证书（沪）-非经营性-2013-0034-沪卫（中医）网审【2015】 10032号 沪ICP备11034776号-3|食品流通许可证：SP3101151410301755</p>
+				</div>
+			</div>
+
+			<div id="bottomd">
+				<img src="./img2/bo1.gif" >
+				<img src="./img2/bo2.png">
+				<img src="./img2/bo3.gif" >
+				<img src="./img2/bo4.png" >
+				<img src="./img2/bo5.png" >
+				<img src="./img2/bo6.png">
+				<img src="./img2/bo7.png" >
+			</div>
+			
+		</div>
+	</div>
+
+
+	<div id="bei">
+		
+	</div>
+
+	<div id="kuang">
+		<div id="k1">X</div>
+		<img src="./img2/rr11_02.jpg">
+		<input type="button" name="" id="k2" value="继续购物">
+		<input type="button" name="" id="k3" value="去购物车结算">
+	</div>
+
+
+	<script type="text/javascript">
+		window.onload = function(){
+			var cover = document.getElementsByClassName('cover')[0];
+			window.onscroll = function(){
+				var st = document.documentElement.scrollTop || document.body.scrollTop;
+				if(st>100){
+					cover.style.position = 'fixed';
+				}
+				else{
+					cover.style.position = 'static';
+				}
+			}
+		}
+
+		var c16r1 = document.getElementById("c16r1");
+		var c16r2 = document.getElementById("c16r2");
+		var c16rtu1 = document.getElementById("c16rtu1");
+		var c16rtu2 = document.getElementById("c16rtu2");
+		var c19r = document.getElementById("c19r");
+		c16r1.onclick=function(){
+			c16r1.style.border="1px solid #ff0853";
+			c16r2.style.border="0";
+			c16rtu1.style.display="inline";
+			c16rtu2.style.display="none";
+			c19r.innerText = '"150ml"';
+		}
+		c16r2.onclick=function(){
+			c16r2.style.border="1px solid #ff0853";
+			c16r1.style.border="0";
+			c16rtu1.style.display="none";
+			c16rtu2.style.display="inline";
+			c19r.innerText = '"200ml"';
+		}
+
+
+		var c17bu = document.getElementById("c17bu");
+		var c17bu2 = document.getElementById("c17bu2");
+		var c17bu3 = document.getElementById("c17bu3");
+		var count = parseInt(c17bu2.value);
+
+		c17bu.onclick=function(){
+			var count = parseInt(c17bu2.value);
+			if(count<=1){
+				c17bu.style.cursor="not-allowed";
+			}
+			else{
+				c17bu.style.cursor="pointer";
+				c17bu3.style.cursor="pointer";
+				c17bu2.value=" "+count-1;
+			}
+
+		}
+		c17bu3.onclick=function(){
+			count = count+1;
+			if(count>=6){
+				c17bu3.style.cursor="not-allowed";
+			}
+			else{
+				c17bu.style.cursor="pointer";
+				c17bu3.style.cursor="pointer";
+				c17bu2.value=" "+count;
+			}
+		}
+
+		var bei = document.getElementById("bei");
+		var k = document.getElementById("kuang");
+		var k1 = document.getElementById("k1");
+		var k2 = document.getElementById("k2");
+		var k3 = document.getElementById("k3");
+		var c22 = document.getElementById("c22");
+
+		c22.onclick=function(){
+			k.style.display="block";
+			bei.style.display="block";
+		}
+		k1.onclick=function(){
+			k.style.display="none";
+			bei.style.display="none";
+		}
+		k2.onclick=function(){
+			k.style.display="none";
+			bei.style.display="none";
+		}
+		k3.onclick=function(){
+			k.style.display="none";
+			bei.style.display="none";
+		}
+
+		var c6l = document.getElementById("c6l");
+		var c6r = document.getElementById("c6r");
+		var c6lt = document.getElementById("c6lt");
+		var c6rt = document.getElementById("c6rt");
+		var slider = document.getElementById("slider");
+		var s0 = document.getElementById("s0");
+		var s1 = document.getElementById("s1");
+		var pp0 = document.getElementById("pp0");
+		var pp1 = document.getElementById("pp1");
+		var c8l = document.getElementById("c8l");
+		var c8r = document.getElementById("c8r");
+		var c9 = document.getElementById("c9");
+		var c10 = document.getElementById("c10");
+
+		c6l.onmouseover=function(){
+			c6r.style.display="block";
+			c6rt.style.display="block";
+			slider.style.display="block";
+		}
+		c6l.onmouseout=function(){
+			c6r.style.display="none";
+			c6rt.style.display="block";
+			slider.style.display="none";
+		}
+		c6l.onmousemove=function(ev){
+			var oL=ev.clientX-c6l.offsetLeft-slider.offsetWidth/2;
+			var oT=ev.clientY-c6l.offsetTop-slider.offsetHeight/2;
+			var oMaxw=c6l.offsetWidth-slider.offsetWidth;
+			var oMaxh=c6l.offsetHeight-slider.offsetHeight;
+			oL=oL>oMaxw?oMaxw:oL<0?0:oL;
+			oT=oT>oMaxh?oMaxh:oT<0?0:oT;
+			slider.style.left=oL+'px';
+			slider.style.top=oT+'px';
+			var maxOL = -oL*(41/15);
+			var maxOT = -oT*(41/15);
+			s0.style.left = maxOL + "px";
+			s0.style.top = maxOT + "px";
+			s1.style.left = maxOL + "px";
+			s1.style.top = maxOT + "px";
+		}
+		c8l.onclick=function(){
+			pp0.style.display="block";
+			pp1.style.display="none";
+			s0.style.display="block";
+			s1.style.display="none";
+			c8l.style.border="1px solid #ff9003";
+			c8r.style.border="0px";
+		}
+		c8r.onclick=function(){
+			pp0.style.display="none";
+			pp1.style.display="block";
+			s0.style.display="none";
+			s1.style.display="block";
+			c8r.style.border="1px solid #ff9003";
+			c8l.style.border="0px";
+		}
+		c9.onclick=function(){
+			pp0.style.display="block";
+			pp1.style.display="none";
+			s0.style.display="block";
+			s1.style.display="none";
+			c8l.style.border="1px solid #ff9003";
+			c8r.style.border="0px";
+		}
+		c10.onclick=function(){
+			pp0.style.display="none";
+			pp1.style.display="block";
+			s0.style.display="none";
+			s1.style.display="block";
+			c8r.style.border="1px solid #ff9003";
+			c8l.style.border="0px";
+		}
+
+
+	</script>
+</body>
